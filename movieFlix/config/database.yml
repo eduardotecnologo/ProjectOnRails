@@ -1,0 +1,9 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: postgres
+  password: root
+
+development:
+  <<: *default
+  database: movieFlix_development
